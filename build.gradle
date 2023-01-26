@@ -16,7 +16,3 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-
-subprojects {
-    apply from: file("$rootProject.projectDir/gradle/heroku/stage.gradle")
-}
